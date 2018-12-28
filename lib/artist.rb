@@ -12,15 +12,12 @@ class Artist
 
   def initialize
     super
-    # self.class.all << self
     @songs = []
   end
 
   def self.all
     @@artists
   end
-
-
 
   def add_song(song)
     @songs << song
